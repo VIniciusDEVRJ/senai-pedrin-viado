@@ -1,0 +1,42 @@
+CREATE DATABASE SenaiDB;
+USE SenaiDB;
+
+Create table clientes(
+Cpf Unique  varchar(12) not null;
+Nome Varchar(20) not null;
+Sobrenome varchar (25) not null;
+Telefone varchar(20);
+Data_Nascimento date not null;
+Rua varchar(30) not null;
+Numero Int (4) not null;
+Complemento varchar (40) ;
+Bairro varchar (30) not null;
+Cidade varchar (30) not null;
+Celular varchar(20) not null;
+Email  varchar (45) not null);
+
+Create table funcionario(
+Cpf Unique  varchar(12) not null;
+Nome Varchar(20) not null;
+Sobrenome varchar (25) not null;
+Telefone varchar(20);
+Data_Nascimento date not null;
+Rua varchar(30) not null;
+Numero Int (4) not null;
+Complemento varchar (40) ;
+Bairro varchar (30) not null;
+Cidade varchar (30) not null;
+Celular varchar(20) not null;
+Email  varchar (45) not null;
+adimicao date not null);
+
+Create Table livro(
+Titulo varchar (30) not null;
+Editora varchar (30) not null;
+Autor varchar (25) not null;
+Idioma varchar(14) not null;
+Observacao varchar (50) not null;
+Genero varcha(15);
+DataLivro date not null);
+
+
