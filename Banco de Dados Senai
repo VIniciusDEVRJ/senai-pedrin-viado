@@ -1,5 +1,5 @@
-CREATE DATABASE SenaiDB;
-USE SenaiDB;
+CREATE DATABASE Livraria;
+USE Livraria;
 
 Create table clientes(
 Cpf Unique  varchar(12) not null,
